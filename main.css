@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+.wrapper{
+    background-image: url("./images/bg.png");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.header{
+    padding-top: 43px;
+}
+.header__nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.header__link{
+    /* desk mob 12 */
+color: white;
+font-family: "Open Sans";
+font-size: 12px;
+font-weight: 600;
+line-height: 160%;
+letter-spacing: 0%;
+text-align: left;
+text-transform: uppercase;
+text-decoration: none;
+transition: 0.5s ease-in-out;
+}
+.header__link:hover{
+    color: orange;
+    
+}
+.header__list{
+    display: flex;
+    list-style: none;
+    gap: 32px;
+}
+.header__btn{
+    background-color: transparent;
+    border: none;
+}
+.hero1{
+    padding-top: 355px;
+    padding-bottom: 236px;
+}
+.hero1__title{
+    width: 679px;
+    color: #ffffff;
+font-family: "Open Sans";
+font-size: 96px;
+font-weight: 700;
+line-height: 123%;
+letter-spacing: 2%;
+text-align: left;
+}
+.hero1__text{
+    margin-top: 45px;
+    width: 645px;
+    color: rgb(255, 255, 255);
+font-family: Open Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 160%;
+letter-spacing: 1%;
+text-align: left;
+}
+.hero1__btn{
+    /* desk mob cta */
+color: rgb(255, 255, 255);
+font-family: "Open Sans";
+font-size: 16px;
+font-weight: 600;
+line-height: 123%;
+letter-spacing: 0%;
+text-align: center;
+border-radius: 10px;
+width: 180px;
+border: none;
+margin-top: 40px;
+height: 52px;
+transition: 0.5s ease-in-out;
+
+/* orange */
+background-color: rgb(245, 117, 32);
+}
+.hero1__btn:hover{
+    color: black;
+    background-color: #ffffff;
+}
+.left__div{
+    width: 1280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 300px;
+    border-radius: 10px;
+padding-left: 80px;
+background: rgb(245, 117, 32);
+}
+.div__title{
+    color: rgb(255, 255, 255);
+font-family: "Open Sans";
+font-size: 40px;
+font-weight: 700;
+}
+.tradein{
+    width: 400px;
+height: 458px;
+background-color: black;
+}
+.title{
+    color: rgb(16, 16, 16);
+    font-family: "Open Sans";
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 123%;
+    letter-spacing: 5%;
+    text-align: center;
+}
+.div__second{
+    color: rgb(255, 255, 255);
+font-family: Open Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 123%;
+letter-spacing: 5%;
+text-align: left;
+}
